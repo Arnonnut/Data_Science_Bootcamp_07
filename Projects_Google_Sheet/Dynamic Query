@@ -1,0 +1,10 @@
+Link : https://docs.google.com/spreadsheets/d/1vPuXvynUkTjTizqIYlKb8mcx1J0V5jtQ6mJjB4RLYFE/edit#gid=1981431105
+
+Create drop down list to filter our table
+สร้าง Dropdown list และดึงข้อมูล Performance
+
+Performance
+=QUERY(EMPLOYEE10, "select * where G = '" & J6 & "'")
+
+Performance and Gender
+=QUERY(EMPLOYEE10, "select * where G = '" & J6 & "'AND F = '" & J7 & "'")
