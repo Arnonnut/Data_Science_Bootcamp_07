@@ -1,0 +1,7 @@
+Project - Convert TH to EN Date
+Link : https://docs.google.com/spreadsheets/d/1vPuXvynUkTjTizqIYlKb8mcx1J0V5jtQ6mJjB4RLYFE/edit#gid=1656509133
+
+DAY	=REGEXEXTRACT(D4, "\d+")
+MONTH	=VLOOKUP(REGEXEXTRACT(D4,"[ก-๙.]+"),LOOKUPTABLE,2,FALSE)
+YEAR	=RIGHT(D4, 4)
+EN DATE	=DATE((G4-543),F4,E4)
