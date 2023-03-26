@@ -1,0 +1,7 @@
+Project - Hamburger Price
+Link : https://docs.google.com/spreadsheets/d/1vPuXvynUkTjTizqIYlKb8mcx1J0V5jtQ6mJjB4RLYFE/edit#gid=1109621442
+
+FULL NAME	=INDEX($A$4:$H$28, MATCH(J10,$A$4:$A$28,FALSE),4
+SALARY	=INDEX($A$4:$H$28, MATCH(J10,$A$4:$A$28,FALSE),6)
+GENDER	=INDEX($A$4:$H$28, MATCH(K10,$D$4:$D$28,FALSE),7)
+PERFORMANCE	=INDEX($A$4:$H$28, MATCH(K10,$D$4:$D$28,FALSE),8)
